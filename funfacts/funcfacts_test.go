@@ -1,21 +1,30 @@
 package funfacts
 
+/*import (
+	"reflect"
+	"testing"
+)
+
 import (
 	"reflect"
 	"testing"
 )
 
-/*
-*
+/*import (
+	"reflect"
+	"testing"
+)
+
+
 
 	Mal for TestGetFunFacts funksjonen.
 	Definer korrekte typer for input og want,
 	og sette korrekte testverdier i slice tests.
-*/
+
 func TestGetFunFacts(t *testing.T) {
 	type test struct {
-		input
-		want // her må du skrive riktig type for returverdien
+		input // her må du skrive riktig type for input
+		want  // her må du skrive riktig type for returverdien
 	}
 
 	// Her må du legge inn korrekte testverdier
@@ -30,3 +39,4 @@ func TestGetFunFacts(t *testing.T) {
 		}
 	}
 }
+*/

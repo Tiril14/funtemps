@@ -1,7 +1,6 @@
 package funfacts
 
-
-  Implementer funfacts-funksjon:
+/*Implementer funfacts-funksjon:
     GetFunFacts(about string) []string
       hvor about kan ha en av tre testverdier, -
         sun, luna eller terra
@@ -12,4 +11,4 @@ package funfacts
       Luna []string
       Terra []string
   }
-
+*/
