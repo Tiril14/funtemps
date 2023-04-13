@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/tiril14/funtemps/conv"
+	"github.com/Tiril14/funtemps/conv"
 )
 
 // Definerer flag-variablene i hoved-"scope"
@@ -11,6 +11,7 @@ var C float64
 var F float64
 var K float64
 var out string
+nn
 
 func init() {
 	flag.Float64Var(&C, "C", 0.0, "temperatur i grader celsius")
