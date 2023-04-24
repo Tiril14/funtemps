@@ -8,7 +8,7 @@ func FahrenheitToCelsius(value float64) float64 {
 
 // Konverterer CelciusToFahrenheit
 func CelsiusToFahrenheit(value float64) float64 {
-	return value*(9/5) + 32
+	return value*9/5 + 32
 }
 
 // Konverterer KelvinToFahrenheit
